@@ -1,0 +1,43 @@
+.kone-contact-txt{
+    font-size: 1000% !important;
+    height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.Big-text{
+    font-size: 130px !important;
+    font-weight: 900 !important;
+    margin-bottom: -60px;
+}
+
+.total-pack-img{
+    width: 90%;
+    height: auto;
+}
+
+
+@media(max-width:1000px){
+    .kone-contact-txt{
+        font-size: 700% !important;
+    }
+
+    .Big-text{
+        font-size: 70px !important;
+    }
+}
+@media(max-width:578px){
+    .kone-contact-txt{
+        font-size: 500% !important;
+    }
+    .Big-text{
+        margin-bottom: -10px;
+        font-size: 44px !important;
+    }
+}
+
+
+.map-bg{
+    background: url(../imgs/contact-bg.png) no-repeat;
+    background-size: cover;
+}
